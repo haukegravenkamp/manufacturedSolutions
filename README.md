@@ -41,3 +41,4 @@ Just download the folder and make sure to add the subfolders to the Matlab path.
 Then run any of the example* files in the main folder.
 Based on the examples, you may try other PDEs.
 
+[![DOI](https://zenodo.org/badge/8315335.svg)](https://zenodo.org/badge/latestdoi/8315335)
