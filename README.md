@@ -44,3 +44,4 @@ Based on the examples, you may try other PDEs.
 # cite as
 Gravenkamp, H., Manufactured solutions, 2023, doi:10.5281/zenodo.8315335
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8315335.svg)](https://doi.org/10.5281/zenodo.8315335)
