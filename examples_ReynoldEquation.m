@@ -1,5 +1,11 @@
+%% examples: Reynolds equation with cavitation
+% Stationary maufactured solutions in 
+% "Stabilized finite elements for the solution of the Reynolds equation 
+% considering cavitation", Gravenkamp et al.
+% see Sections 8.1, 8.2
 
-exampleNo = 1;
+%% choose example
+exampleNo = 1;                                                              % choose 1 or 2 for examples in sections 8.1 or 8.2 
 
 %% problem-dependent functions
 switch exampleNo
@@ -23,7 +29,7 @@ f = manufacturedSolution({u,g,H},fFun);                                     % co
 
 %% plotting
 domain = [[0,2*pi];[-1,1]];                                                 % x- and y-limits for plotting
-plotManufactured(u,f,domain,0,100);                                           % call plot function
+plotManufactured(u,f,domain,0,100);                                         % call plot function
 
 
 
