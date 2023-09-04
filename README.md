@@ -41,4 +41,6 @@ Just download the folder and make sure to add the subfolders to the Matlab path.
 Then run any of the example* files in the main folder.
 Based on the examples, you may try other PDEs.
 
-[![DOI](https://zenodo.org/badge/8315335.svg)](https://zenodo.org/badge/latestdoi/8315335)
+# cite as
+Gravenkamp, H., Manufactured solutions, 2023, doi:10.5281/zenodo.8315335
+
