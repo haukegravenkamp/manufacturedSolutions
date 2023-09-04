@@ -42,6 +42,6 @@ Then run any of the example* files in the main folder.
 Based on the examples, you may try other PDEs.
 
 # cite as
-Gravenkamp, H., Manufactured solutions, 2023, doi:10.5281/zenodo.8315335
+Gravenkamp, H., Manufactured solutions, 2023, doi:10.5281/zenodo.8315789
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8315335.svg)](https://doi.org/10.5281/zenodo.8315335)
+[![DOI](https://zenodo.org/badge/686987969.svg)](https://zenodo.org/badge/latestdoi/686987969)
