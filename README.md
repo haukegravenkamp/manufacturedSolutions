@@ -34,3 +34,10 @@ In addition to the minimal example above, this code contains examples used in th
 [1] Gravenkamp, H., Pfeil, S., & Codina, R., Stabilized finite elements for the solution of the Reynolds equation considering cavitation (under review). CMAME.
 
 [2] Gravenkamp, H., Codina, R., & Principe, J., A stabilized finite element method for modeling dispersed multiphase flows using orthogonal subgrid scales (under review). International Journal of Computational Physics. 
+
+
+# usage
+Just download the folder and make sure to add the subfolders to the Matlab path.
+Then run any of the example* files in the main folder.
+Based on the examples, you may try other PDEs.
+
