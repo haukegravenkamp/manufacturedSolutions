@@ -82,10 +82,10 @@ f02Fun=@(u1,u2,alpha1,alpha2,p) ...
     div(alpha2*u2) ;
 
 % compute right-hand sides
-f1alpha1 = manufacturedSolution({u1,u2,alpha1,alpha2,p},f1Fun);             % momentum equations
-f2alpha2 = manufacturedSolution({u1,u2,alpha1,alpha2,p},f2Fun);
-f01      = manufacturedSolution({u1,u2,alpha1,alpha2,p},f01Fun);            % continuity equations (should vanish)
-f02      = manufacturedSolution({u1,u2,alpha1,alpha2,p},f02Fun);
+[f1alpha1,f1Sym] = manufacturedSolution({u1,u2,alpha1,alpha2,p},f1Fun);             % momentum equations
+[f2alpha2,f2Sym] = manufacturedSolution({u1,u2,alpha1,alpha2,p},f2Fun);
+[f01,f01Sym]     = manufacturedSolution({u1,u2,alpha1,alpha2,p},f01Fun);            % continuity equations (should vanish)
+[f02,f02Sym]     = manufacturedSolution({u1,u2,alpha1,alpha2,p},f02Fun);
 
 f = @(x,y) [f1alpha1(x,y)./alpha1(x,y); f2alpha2(x,y)./alpha2(x,y);0;0;0 ]; % assemble in one vector, divide by alpha to get load
 

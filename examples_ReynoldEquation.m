@@ -25,7 +25,7 @@ end
 H = @(x,y) 1-0.5*cos(x-pi);                                                 % gap function
 mu=1;                                                                       % viscosity
 fFun = @(u,g,H) -1/12*div(H.^3/mu*grad(g*u))+derX(H,1)-derX((g-1)*H*u,1);   % define PDE
-f = manufacturedSolution({u,g,H},fFun);                                     % compute body load
+[f,fSym] = manufacturedSolution({u,g,H},fFun);                              % compute body load
 
 %% plotting
 domain = [[0,2*pi];[-1,1]];                                                 % x- and y-limits for plotting
