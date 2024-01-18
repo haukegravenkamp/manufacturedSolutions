@@ -1,1 +1,7 @@
 /backup_manufacturedSolutions_20230904_1320.zip
+exampleSascha/HookeMatrix3d.m
+exampleSascha/PlaneStrainConstitutiveMatrices.m
+exampleSascha/PlaneStressConstitutiveMatrices.m
+.gitignore
+exampleSascha/example_elasticity_hg.m
+exampleSascha/example_elasticity.m
