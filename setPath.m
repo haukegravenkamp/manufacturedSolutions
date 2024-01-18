@@ -1,8 +1,8 @@
 
 if ispc
-    addpath(genpath('.\code'))
-    addpath(genpath('.\differentialOperators'))         % windows
+    addpath(genpath('.\src'))
+    addpath(genpath('.\examples'))         % windows
 else
-    addpath(genpath('./code'))                % not windows
-    addpath(genpath('./differentialOperators'))                % not windows
+    addpath(genpath('./src'))                % not windows
+    addpath(genpath('./examples'))                % not windows
 end
